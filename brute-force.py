@@ -21,7 +21,7 @@ def guess_password(real):
             print(guess, attempts)
 
 #Generates a 4 char length password.
-length = 3
+length = 4
 sample = random.sample(all, length)
 sample = ''.join(sample)
 print(sample)
